@@ -1,0 +1,37 @@
+// Mixins
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// Base color scheme
+
+$surfblue: #3ebcbf;
+$surfyellow: #f9e573;
+$surfpurple: #200c21;
+$surflightgray: #999f9f;
+$surfdarkgray: #122121;
+$surfwhite: #fff;
+
+// Base type
+
+$sans-serif: "Cabin", Helvetica, Arial, sans-serif;
+
+%uppercase {
+	text-transform: uppercase;
+	letter-spacing: .01em;
+	font-weight: 700;
+}
+
+// Base element styles
+
+%form-elements {
+	@include border-radius(2px);
+	font-family: $sans-serif;
+	color: $surfdarkgray;
+	border: none;
+	padding: 0 20px;
+}

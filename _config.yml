@@ -1,0 +1,13 @@
+# Site settings
+title: Surf
+email: ashley@lastletterdesign.com
+description: > # this means to ignore newlines until "baseurl:"
+  Test site for test purposes.
+url: "http://localhost:4000"
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: ashleykolodziej
+github_username:  ashleykolodziej
+
+# Build settings
+markdown: redcarpet
+highlighter: rouge
