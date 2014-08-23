@@ -1,0 +1,66 @@
+.homepage {
+	background-color: $surfpurple;
+	color: $surfwhite;
+	font-family: $sans-serif;
+	text-align: center;
+
+	p {
+		font-size: 1.5em;
+		line-height: 1.3;
+	}
+
+}
+
+.site-header {
+	background-color: $surfblue;
+	border-bottom: 10px solid $surfyellow;
+	border-top: none;
+	overflow: hidden;
+}
+
+.site-title {
+	float: none;
+}
+
+#logo {
+    display: block;
+    margin: 10% auto;
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+
+}
+
+#mc_embed_signup {
+	background-color: transparent !important;
+
+	label {
+		visibility: hidden;
+	}
+
+	input.email {
+		float: left;
+		padding: 13px 8px !important;
+		font-size: 1em;
+		margin-right: 2% !important;
+		margin-left: 6% !important;
+
+		@extend %form-elements;
+	}
+
+	.button {
+		background-color: $surfyellow !important;
+		color: $surfpurple !important;
+		clear: none !important;
+		display: inline-block;
+		height: 45px !important;
+		padding: 0 20px !important;
+		width: auto !important;
+
+		@extend %form-elements;
+		@extend %uppercase;
+	}
+
+}
